@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="uk">
+    <meta charset="UTF-8">
+    <title>Trading</title>
+
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script type="text/javascript" src="main.js"> </script>
+    
+    <!-- ... -->
+    
+<div class="bl-background">
+    
+    <!-- ... -->
+    <div>
+    <div class="bl-list">
+        
+        <div class="textfield">
+            <div class="obertka">
+                <button class="bl-add tooltip"><b>Додати</b><span class="tooltiptext">Add new Goods</span></button>
+            </div>
+        <input class="bl-textinput" type="text" name="goods" value="Назва товару">
+                                                          
+         
+            
+        </div>
+        
+        <div class="temp-row" style="display: none">
+        <div class="bl-row">
+            <div class="bl-product" contenteditable="true"> 
+                Помідори
+            </div>
+            <div class="bl-count">
+                <button class="bl-minus tooltip">-<span class="tooltiptext">sell</span></button>
+                <span class="bl-label">1</span>
+                <button class="bl-plus tooltip">+<span class="tooltiptext">buy</span></button>
+            </div>
+            <div class="bl-buttons">
+                <button class="bl-boughtbut tooltip">Куплене<span class="tooltiptext">buyed</span></button> 
+                <button class="bl-exit tooltip">х<span class="tooltiptext">remove</span></button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+   
+     <!-- ... -->
+     <div class="bl-bought">
+         
+         
+         <div class="remains">
+         <div class="bl-title"><b>Залишилося</b></div>
+         <hr class="color-line">
+        <div class="remains-temp" style="display: none">
+           <span class="remain-get">
+            <span class="remain">Печиво</span>
+            <span class="bl-numOfRemains">1</span>
+            </span>
+         </div>
+         </div>
+         
+         <hr class="color-line">
+         
+         
+         
+         <div class="alreadyBought">
+         <div class="bl-title"><b>Куплене</b></div>
+         <hr class="color-line">
+        <div class="alreadyBought-temp" style="display: none">
+            <span class="counter-already">
+                <span class="remain">Помідори</span>
+                <span class="bl-numOfRemains">1</span>
+            </span>
+         </div>
+         </div>
+    </div>
+    
+    
+    
+     
+</div>
+
+   <div class="badge">
+       <div class="badgeBuy"> Buy List </div>
+       <div class="created">Created By:
+       Denysenko Ihor</div>
+    </div>
+    
+</body>
+</html>
